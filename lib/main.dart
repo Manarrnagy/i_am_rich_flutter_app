@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blueGrey[100],
         appBar: AppBar(
           backgroundColor: Colors.blueGrey[900],
-          title: Text("I Am Rich",textAlign: TextAlign.center,),
+          title: Container(alignment:Alignment.center,child: Text("I Am Rich",textAlign: TextAlign.center,)),
         ),
        body: Center(
          child: Image.asset("assets/diamond.png"),
